@@ -68,13 +68,6 @@ export function ToucanDashboard() {
           </svg>
         </div>
 
-        {/* Channel ID badge */}
-        {id && (
-          <div className="absolute top-5 left-1/2 -translate-x-1/2 z-50 bg-[#0a2e17]/80 border border-[#d4a017]/50 px-3 py-0.5 rounded-full">
-            <span className="text-[10px] text-[#d4a017] font-mono">{id}</span>
-          </div>
-        )}
-
         {/* Hero video */}
         <div className="relative h-[38vh] bg-white overflow-hidden">
           <div className="absolute top-0 left-0 w-20 h-full z-10">
