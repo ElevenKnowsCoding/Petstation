@@ -65,9 +65,9 @@ export function AnimalsManagement() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
-                {animals.map((animal, i) => (
+                {animals.map((animal, index) => (
                   <tr key={animal.id} className="hover:bg-muted/50 transition-colors">
-                    <td className="px-4 py-3 text-sm text-muted-foreground">{i + 1}</td>
+                    <td className="px-4 py-3 text-sm text-muted-foreground">{index + 1}</td>
                     <td className="px-4 py-3">
                       <div className="flex items-center gap-2">
                         <span className="text-xl">🦜</span>
@@ -115,7 +115,7 @@ export function AnimalsManagement() {
       {/* QR Codes Tab */}
       {activeTab === 'qr' && (
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          {animals.map((animal, i) => (
+          {animals.map((animal) => (
             <div
               key={animal.id}
               className="bg-white rounded-2xl border border-border p-5 flex flex-col items-center gap-3 hover:shadow-card-hover transition-shadow cursor-pointer"
