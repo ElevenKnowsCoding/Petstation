@@ -32,7 +32,7 @@ const navItems = [
   { id: 'rides', label: 'Ride & Game Mgmt', icon: FerrisWheel },
   { id: 'staff', label: 'Staff & Kiosks', icon: Tablet },
   { id: 'analytics', label: 'Analytics & Reports', icon: BarChart3 },
-  { id: 'animals', label: 'Channel Build Toucan', icon: PawPrint },
+  { id: 'animals', label: 'Animals', icon: PawPrint },
   { id: 'settings', label: 'Settings', icon: Settings },
 ];
 

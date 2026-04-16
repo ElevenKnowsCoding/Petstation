@@ -15,12 +15,7 @@ import type {
 } from '@/types';
 
 export const animals: Animal[] = [
-  { id: 'ani-1', name: 'Toco', species: 'Channel-billed Toucan', channelId: 'CH-TCN-001', zone: 'Aviary Zone', status: 'healthy', age: 3, qrCode: 'PET-TCN-001', description: 'Most active in the morning, loves papaya' },
-  { id: 'ani-2', name: 'Beak', species: 'Channel-billed Toucan', channelId: 'CH-TCN-002', zone: 'Aviary Zone', status: 'healthy', age: 5, qrCode: 'PET-TCN-002', description: 'Largest of the flock, very social' },
-  { id: 'ani-3', name: 'Rio', species: 'Channel-billed Toucan', channelId: 'CH-TCN-003', zone: 'Jungle Zone', status: 'under-care', age: 2, qrCode: 'PET-TCN-003', description: 'Recovering from a minor wing injury' },
-  { id: 'ani-4', name: 'Sunny', species: 'Channel-billed Toucan', channelId: 'CH-TCN-004', zone: 'Aviary Zone', status: 'healthy', age: 4, qrCode: 'PET-TCN-004', description: 'Favourite among guests, very playful' },
-  { id: 'ani-5', name: 'Mango', species: 'Channel-billed Toucan', channelId: 'CH-TCN-005', zone: 'Jungle Zone', status: 'healthy', age: 6, qrCode: 'PET-TCN-005', description: 'Oldest in the group, calm temperament' },
-  { id: 'ani-6', name: 'Zara', species: 'Channel-billed Toucan', channelId: 'CH-TCN-006', zone: 'Aviary Zone', status: 'quarantine', age: 1, qrCode: 'PET-TCN-006', description: 'Routine health screening in progress' },
+  { id: 'ani-1', name: 'Channel-billed Toucan', species: 'Channel-billed Toucan', channelId: 'CH-TCN-001', zone: 'Aviary Zone', status: 'healthy', age: 3, qrCode: 'PET-TCN-001', description: 'Known for its enormous colorful bill. Native to the Amazon rainforest.' },
 ];
 
 export const packages: Package[] = [
